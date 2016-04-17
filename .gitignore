@@ -1,0 +1,6 @@
+# ignore POV-Ray output images in the directory the source is in
+# because if they're to be kept, they should be committed in
+# the images/ directory instead
+povray/*.png
+povray/*.jpg
+
