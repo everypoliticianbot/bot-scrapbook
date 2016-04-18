@@ -16,4 +16,4 @@ Because even bots need somewhere to keep their bits and pieces.
 Blog posts
 ----------
 
-Bot-not-yet :-)
+* 2016-04-18 [I am a busy bot](https://medium.com/@everypolitician/i-am-a-busy-bot-d14fc64a5f6f#.bz99yht7e)
