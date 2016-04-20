@@ -66,6 +66,19 @@
 
 #declare screw_scale = 0.04;
 
+#declare back_stud_rad = antenna_bobble_rad;
+#declare back_stud_circle_rad = 0.35;
+
+#declare mysoc_colours = array[7] {
+rgb  <0.90, 0.00, 0.11>, // red
+rgb  <0.95, 0.50, 0.09>, // orange
+rgb  <0.98, 0.93, 0.11>, // yellow
+rgb  <0.48, 0.75, 0.19>, // green
+rgb  <0.15, 0.60, 0.86>, // blue
+rgb  <0.32, 0.09, 0.49>, // indigo
+rgb  <0.50, 0.06, 0.49>, // violet
+}
+
 #declare texture_none =
   texture {
     pigment { White }
@@ -532,6 +545,29 @@
       }
     }
 
+  #declare bot_back_studs =
+    union {
+      #local stud = 0;
+      #while (stud < 7)
+        union {
+          sphere {
+            <0,0,0> back_stud_rad
+            texture {
+              pigment { mysoc_colours[stud] }
+              finish { F_MetalA }
+            }
+          }
+          torus { back_stud_rad back_stud_rad/3 rotate x * 90}
+          rotate z * stud * 360/8
+          translate y * cos(radians(stud * 360/8)) * back_stud_circle_rad
+          translate z * bot_rad
+          rotate -y * degrees(atan(sin(radians(stud * 360/8)) * back_stud_circle_rad))
+        }
+        #local stud = stud + 1;
+      #end
+      translate y * botbody_height * 0.72
+    }
+  
   #declare hat =
     union {
       // hat button
@@ -556,6 +592,7 @@
 
     // here's the actual bot! 
     union{
+        object { bot_back_studs }
         object { bot_body_with_skirt }
         object { hat }
         object { bot_arm rotate y*20 }
