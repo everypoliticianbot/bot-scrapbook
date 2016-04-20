@@ -19,3 +19,7 @@ Blog posts
 * 2016-04-18 [I am a busy bot](https://medium.com/@everypolitician/i-am-a-busy-bot-d14fc64a5f6f#.bz99yht7e)
 * 2016-04-19 [I'm a bot who comments](https://medium.com/@everypolitician/i-m-a-bot-who-comments-d1d93b6cab63#.r3wk4ldpx)
 * 2016-04-20 [I make lists of humans’ names](https://medium.com/@everypolitician/i-make-lists-of-humans-names-4b061212baf3#.w0uxisw2x)
+
+### License
+
+Images are made available under [Creative Commons CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/).
