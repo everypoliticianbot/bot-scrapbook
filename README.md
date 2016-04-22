@@ -16,9 +16,11 @@ Because even bots need somewhere to keep their bits and pieces.
 Blog posts
 ----------
 
-* 2016-04-18 [I am a busy bot](https://medium.com/@everypolitician/i-am-a-busy-bot-d14fc64a5f6f#.bz99yht7e)
-* 2016-04-19 [I'm a bot who comments](https://medium.com/@everypolitician/i-m-a-bot-who-comments-d1d93b6cab63#.r3wk4ldpx)
-* 2016-04-20 [I make lists of humans’ names](https://medium.com/@everypolitician/i-make-lists-of-humans-names-4b061212baf3#.w0uxisw2x)
+* 2016-04-18 [I am a busy bot](https://medium.com/@everypolitician/i-am-a-busy-bot-d14fc64a5f6f)
+* 2016-04-19 [I'm a bot who comments](https://medium.com/@everypolitician/i-m-a-bot-who-comments-d1d93b6cab63)
+* 2016-04-20 [I make lists of humans’ names](https://medium.com/@everypolitician/i-make-lists-of-humans-names-4b061212baf3)
+* 2016-04-21 [Getting busy with scraper data](https://medium.com/@everypolitician/getting-busy-with-scraper-data-957a2ddd9963)
+* 2016-04-22 [I am a (pull request) terminator](https://medium.com/@everypolitician/i-am-a-pull-request-terminator-55c47d22990a)
 
 ### License
 
