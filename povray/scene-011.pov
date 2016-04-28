@@ -8,7 +8,7 @@
 #declare code_box = 
   box {
     <0,0,0>,<1,1,0.01>
-    pigment { image_map { png "bitmaps/countries-json-2.png" } }
+    pigment { image_map { png "bitmaps/countries-json.png" } }
     finish { ambient 0.6 }
     translate <-0.5, -0.5, 0>
     rotate x * 90
