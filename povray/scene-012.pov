@@ -1,3 +1,8 @@
+// screenshot of the viewer-sinatra preview site
+// But EveryPoliticianBot is not entirely comfortable with the deployment
+// of the preview site (on Heroku) being attributed to tmtmtmtm so, ahem,
+// the bot put its hand in the way, obscuring the name
+
 #include "colors.inc"
 #include "everypolitician-bot.inc"
 #include "everypolitician-bits.inc"
