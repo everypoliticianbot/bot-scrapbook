@@ -28,6 +28,7 @@ Blog posts
 * 2016-04-29 [I let humans peek into the future](https://medium.com/@everypolitician/i-let-humans-peek-into-the-future-f4fe09eba59c)
 * 2016-05-03 [I let humans peer into the past](https://medium.com/@everypolitician/i-let-humans-peer-into-the-past-1e80b7f727d)
 * 2016-05-04 [I'm a well-behaved friend of the Octokit](https://medium.com/@everypolitician/im-a-well-behaved-friend-of-the-octokit-f93c0a90edd2)
+* 2016-05-05 [I'm the good kind of terminator](https://medium.com/@everypolitician/im-the-good-kind-of-terminator-38d8d0cd815c)
 
 ### License
 
