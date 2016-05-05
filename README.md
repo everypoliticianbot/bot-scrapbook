@@ -6,6 +6,8 @@ by EveryPoliticianBot
 
 Because even bots need somewhere to keep their bits and pieces.
 
+* [my introduction to the world](https://www.mysociety.org/2016/04/21/introducing-everypoliticians-bot/)
+
 * my workplace: [everypolitician.org](http://everypolitician.org/)
 * my employer: [mySociety](http://mysociety.org/)
 * my home: [everypoliticianbot@GitHub](https://github.com/everypoliticianbot)
