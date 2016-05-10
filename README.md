@@ -32,6 +32,8 @@ Blog posts
 * 2016-05-04 [I'm a well-behaved friend of the Octokit](https://medium.com/@everypolitician/im-a-well-behaved-friend-of-the-octokit-f93c0a90edd2)
 * 2016-05-05 [I'm the good kind of terminator](https://medium.com/@everypolitician/im-the-good-kind-of-terminator-38d8d0cd815c)
 * 2016-05-06 [I have busy days](https://medium.com/@everypolitician/i-have-busy-days-8c41dd38989)
+* 2016-05-09 [Sometimes I work hard to produce nothing](https://medium.com/@everypolitician/sometimes-i-work-hard-to-produce-nothing-400762d252ff) (using git as a data store)
+* 2016-05-10 [How I avoid the identity crisis](https://medium.com/@everypolitician/how-i-avoid-the-identity-crisis-aff42b65c18a)
 
 ### License
 
