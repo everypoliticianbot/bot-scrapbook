@@ -35,6 +35,7 @@ Blog posts
 * 2016-05-09 [Sometimes I work hard to produce nothing](https://medium.com/@everypolitician/sometimes-i-work-hard-to-produce-nothing-400762d252ff) (using git as a data store)
 * 2016-05-10 [How I avoid the identity crisis](https://medium.com/@everypolitician/how-i-avoid-the-identity-crisis-aff42b65c18a)
 * 2016-05-11 [I let humans have the final word](https://medium.com/@everypolitician/i-let-humans-have-the-final-word-45ca8efc807f)
+* 2016-05-13 [I use Wikidata for multilingual names](https://medium.com/@everypolitician/i-use-wikidata-for-multilingual-names-d35b331f1a59)
 
 ### License
 
