@@ -62,4 +62,14 @@
   }
 
 
+// for debugging
+#declare xy_axes =
+  union {
+    cylinder { x * -1000 x * 1000 0.05 }
+    cylinder { y * -1000 y * 1000 0.05 }
+    pigment { checker  Red, Yellow  }
+    finish { ambient 0.666 }
+  }
+
+
  
