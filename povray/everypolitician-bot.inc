@@ -135,26 +135,26 @@ rgb  <0.50, 0.06, 0.49>, // violet
     pigment { rgb < 0.2, 0.2, 0.2 > }
   }
 
+// make a box with round ends
+// centred on origin, running along the x-axis, flat side towards z
+#macro RadiusBox(Length, Thickness, Rad)
+  union {
+    box{ <-Length/2, -Rad, -Thickness/2> <Length/2, Rad, Thickness/2> }
+    cylinder {
+      <0, 0 ,0> <0, 0, Thickness> Rad
+      translate <-Length/2, 0, -Thickness/2>
+    }
+    cylinder {
+      <0, 0 ,0> <0, 0, Thickness> Rad
+      translate <Length/2, 0, -Thickness/2>
+    }
+  }
+#end
+
 //-----------------------------------------------------
 // macro defined here: scope for want_texures
   
 #macro create_bot(want_textures)
-
-  // make a box with round ends
-  // centred on origin, running along the x-axis, flat side towards z
-  #macro RadiusBox(Length, Thickness, Rad)
-    union {
-      box{ <-Length/2, -Rad, -Thickness/2> <Length/2, Rad, Thickness/2> }
-      cylinder {
-        <0, 0 ,0> <0, 0, Thickness> Rad
-        translate <-Length/2, 0, -Thickness/2>
-      }
-      cylinder {
-        <0, 0 ,0> <0, 0, Thickness> Rad
-        translate <Length/2, 0, -Thickness/2>
-      }
-    }
-  #end
 
   #declare screw_head = 
     difference {
