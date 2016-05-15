@@ -79,6 +79,10 @@ rgb  <0.32, 0.09, 0.49>, // indigo
 rgb  <0.50, 0.06, 0.49>, // violet
 }
 
+#declare colour_bot_red = rgb <0.8, 0.3, 0.3>;
+#declare colour_wheel_grey = rgb < 0.4, 0.4, 0.4 >;
+#declare colour_catepillar_green = rgb < 0.5, 0.8, 0.5 >;
+
 #declare texture_none =
   texture {
     pigment { White }
@@ -101,7 +105,7 @@ rgb  <0.50, 0.06, 0.49>, // violet
 
 #declare texture_red_metal = 
   texture {
-    pigment { rgb <0.8, 0.3, 0.3> }
+    pigment { colour_bot_red }
     finish { F_MetalA }
   }
 
@@ -110,12 +114,11 @@ rgb  <0.50, 0.06, 0.49>, // violet
 #declare texture_bot_metal = 
   texture {
     Copper_Metal
-    //T_Copper_1B
   }
 
 #declare texture_wheels = 
   texture {
-    pigment { rgb < 0.4, 0.4, 0.4 > }
+    pigment { colour_wheel_grey }
   }
 
 #declare texture_grille = 
@@ -126,7 +129,7 @@ rgb  <0.50, 0.06, 0.49>, // violet
 
 #declare texture_caterpillar_tracks = 
   texture {
-    pigment { rgb < 0.5, 0.8, 0.5 > }
+    pigment { colour_catepillar_green }
     normal { bumps 0.1 scale 0.02 }
   }
 
