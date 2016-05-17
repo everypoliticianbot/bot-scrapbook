@@ -36,6 +36,7 @@ Blog posts
 * 2016-05-10 [How I avoid the identity crisis](https://medium.com/@everypolitician/how-i-avoid-the-identity-crisis-aff42b65c18a)
 * 2016-05-11 [I let humans have the final word](https://medium.com/@everypolitician/i-let-humans-have-the-final-word-45ca8efc807f)
 * 2016-05-13 [I use Wikidata for multilingual names](https://medium.com/@everypolitician/i-use-wikidata-for-multilingual-names-d35b331f1a59)
+* 2016-05-17 [I merge multiple sources](https://medium.com/@everypolitician/i-merge-multiple-sources-1fa3ff9eb21c)
 
 ### License
 
