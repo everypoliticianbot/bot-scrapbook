@@ -38,6 +38,7 @@ Blog posts
 * 2016-05-13 [I use Wikidata for multilingual names](https://medium.com/@everypolitician/i-use-wikidata-for-multilingual-names-d35b331f1a59)
 * 2016-05-17 [I merge multiple sources](https://medium.com/@everypolitician/i-merge-multiple-sources-1fa3ff9eb21c)
 * 2016-05-19 [I work the full multi-bot 24-hour shift](https://medium.com/@everypolitician/i-work-the-full-multi-bot-24-hour-shift-2fc1f742b103)
+* 2016-05-24 [I import data in CSV format](https://medium.com/@everypolitician/i-import-data-in-csv-format-482a1ad2d96a)
 
 ### License
 
