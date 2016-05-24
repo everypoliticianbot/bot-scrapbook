@@ -2,6 +2,6 @@
 // loads the "current" WiP POV to avoid reloading/reverting file in MegaPOV
 // (because the real editing is happening in a text editor) 
 
-#include "scene-022.pov"
+#include "scene-023.pov"
 
  
