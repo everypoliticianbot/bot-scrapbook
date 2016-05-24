@@ -1,7 +1,4 @@
-// Simple bot-on-white scene
-// Handy for a starting point for more complex scenes
-// Bot is positioned dead centre of frame, toe-to-top visible
-// Note: no interesting reflections on bot in an empty scene like this
+// the Vitruvian bot
 
 #include "colors.inc"
 #include "everypolitician-bot.inc"
@@ -17,6 +14,7 @@
 // this is quick and dirty, and the bot is all
 // wrapped up in a macro declaration which makes the
 // parts inaccessible. Hack hack hack.
+// Worse, this bit is lifted from scene 020. DRY eh?
 
   #macro b_finger(fingertip_pigment)
     union {
@@ -108,15 +106,12 @@ union {
 
 plane {
   z 1
-  pigment { image_map { jpeg "bitmaps/vetruvian-man.jpg" } scale 5.7 translate <1,-1.2,0>}
+  pigment { image_map { jpeg "bitmaps/vitruvian-man.jpg" } scale 5.7 translate <1,-1.2,0>}
   finish { ambient 0.4 }
 }
 
 light_source { default_light }
 light_source { default_flood_light }
-
-
-//background{ White }
 
 camera {
   location  <0, 3, -6.5>
