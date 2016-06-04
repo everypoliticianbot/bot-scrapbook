@@ -5,7 +5,14 @@
 #declare with_textures = 1;
 #declare without_textures = 0;
 
-global_settings { max_trace_level 8 }
+global_settings {
+  max_trace_level 8
+  photons {
+    count 20000
+    autostop 0
+    jitter .4
+  }
+}
 
 #declare floor_colour = rgb <0.5, 0.5, 0.7>;
 #declare grout_colour = <0.4, 0.4, 0.6, 0>;
@@ -39,6 +46,7 @@ union { // mirror
   box {
     <0,0,0> <mirror_width, mirror_height, mirror_frame_thickness/3>
     texture { T_Chrome_3E }
+    photons{ target reflection on }
   }
   difference {
     box {
@@ -69,7 +77,8 @@ union { // mirror
 
 object {
    create_bot(with_textures)
-   rotate y * -90
+   photons{ target reflection on }
+   rotate y * -90 // switch to +90 to face mirror (scene-009a)
 }
 
 #declare light_location = < 6, 7, 1>;
