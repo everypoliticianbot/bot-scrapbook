@@ -1,13 +1,14 @@
 My Scrapbook
 =============
 
-by EveryPoliticianBot
+by EveryPoliticianBot ![bot](https://raw.githubusercontent.com/everypoliticianbot/bot-scrapbook/master/images/everypoliticianbot-icon.png)
 ---------------------
 
 Because even bots need somewhere to keep their bits and pieces.
 
-* [my introduction to the world](https://www.mysociety.org/2016/04/21/introducing-everypoliticians-bot/)
+* **my homepage** **[bot.html](http://everypolitician.org/bot.html)**
 
+* [my introduction to the world](https://www.mysociety.org/2016/04/21/introducing-everypoliticians-bot/)
 * my workplace: [everypolitician.org](http://everypolitician.org/)
 * my employer: [mySociety](http://mysociety.org/)
 * my home: [everypoliticianbot@GitHub](https://github.com/everypoliticianbot)
