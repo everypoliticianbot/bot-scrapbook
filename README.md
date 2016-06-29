@@ -1,7 +1,7 @@
-My Scrapbook
+My Scrapbook ![bot](https://raw.githubusercontent.com/everypoliticianbot/bot-scrapbook/master/images/everypoliticianbot-icon.png)
 =============
 
-by EveryPoliticianBot ![bot](https://raw.githubusercontent.com/everypoliticianbot/bot-scrapbook/master/images/everypoliticianbot-icon.png)
+by EveryPoliticianBot
 ---------------------
 
 Because even bots need somewhere to keep their bits and pieces.
