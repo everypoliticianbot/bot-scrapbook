@@ -1,7 +1,4 @@
-// Simple bot-on-white scene
-// Handy for a starting point for more complex scenes
-// Bot is positioned dead centre of frame, toe-to-top visible
-// Note: no interesting reflections on bot in an empty scene like this
+// bot on twitter logo
 
 #include "colors.inc"
 #include "everypolitician-bot.inc"
@@ -15,7 +12,8 @@
 object {
    create_bot(with_textures)
    rotate y * -25
-   translate z * -2
+   translate z * -2.1
+   translate x * 0.3 /* nudge to keep whole shadow on logo */
 }
 
 light_source { default_light }
