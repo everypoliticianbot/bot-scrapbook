@@ -62,14 +62,16 @@
   }
 
 
-// for debugging
-#declare xy_axes =
+#macro debug_axes()
+  #local axis_end = 1000;
+  #local axis_rad = 0.01;
   union {
-    cylinder { x * -1000 x * 1000 0.05 }
-    cylinder { y * -1000 y * 1000 0.05 }
+    cylinder {-y * axis_end y * axis_end axis_rad}
+    cylinder {-y * axis_end y * axis_end axis_rad rotate <90, 0, 0>}
+    cylinder {-y * axis_end y * axis_end axis_rad rotate <90, 90, 0>}
     pigment { checker  Red, Yellow  }
     finish { ambient 0.666 }
   }
-
+#end
 
  
