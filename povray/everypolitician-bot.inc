@@ -69,14 +69,22 @@
 #declare back_stud_rad = antenna_bobble_rad;
 #declare back_stud_circle_rad = 0.35;
 
+#declare mysoc_red    = rgb <0.90, 0.00, 0.11>;
+#declare mysoc_orange = rgb <0.95, 0.50, 0.09>;
+#declare mysoc_yellow = rgb <0.98, 0.93, 0.11>;
+#declare mysoc_green  = rgb <0.48, 0.75, 0.19>;
+#declare mysoc_blue   = rgb <0.15, 0.60, 0.86>;
+#declare mysoc_indigo = rgb <0.32, 0.09, 0.49>;
+#declare mysoc_violet = rgb <0.50, 0.06, 0.49>;
+
 #declare mysoc_colours = array[7] {
-rgb  <0.90, 0.00, 0.11>, // red
-rgb  <0.95, 0.50, 0.09>, // orange
-rgb  <0.98, 0.93, 0.11>, // yellow
-rgb  <0.48, 0.75, 0.19>, // green
-rgb  <0.15, 0.60, 0.86>, // blue
-rgb  <0.32, 0.09, 0.49>, // indigo
-rgb  <0.50, 0.06, 0.49>, // violet
+  mysoc_red
+  mysoc_orange
+  mysoc_yellow
+  mysoc_green
+  mysoc_blue
+  mysoc_indigo
+  mysoc_violet
 }
 
 #declare colour_bot_red = rgb <0.8, 0.3, 0.3>;
