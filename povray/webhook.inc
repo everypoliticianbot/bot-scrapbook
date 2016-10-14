@@ -125,6 +125,31 @@
   #end
 #end
 
+#macro everypolitician_triple_bars(ep_bars_colour)
+  union {
+    #local bar_length = 0.21;
+    #local bar_thickness = 0.04;
+    #local bar_radius = 0.04;
+    #local i = 0;
+    #while (i < 3)
+      union {
+        sphere { x * -bar_length/2 bar_radius }
+        sphere { x *  bar_length/2 bar_radius }
+        cylinder {
+          x * -bar_length/2
+          x *  bar_length/2
+          bar_radius
+        }
+        translate y * (i - 1) * bar_radius * 4
+        scale <1, 1, 0.5>
+      }
+      #local i = i + 1;
+    #end
+    pigment { ep_bars_colour }
+    finish { F_MetalA }
+  }
+#end
+
 #macro taper_box_with_rivets(taper_angle)
   union {
     tapered_box(taper_angle)
@@ -142,6 +167,10 @@
         translate <-0.5, 0, -0.5>
         rotate  z * taper_angle
       }
+      object {
+        everypolitician_triple_bars(mysoc_green)
+        translate <0.0, 0.425, -0.5>
+      }
       rotate  x * taper_angle
     }
     union {
@@ -157,9 +186,13 @@
         translate <-0.5, 0, -0.5>
         rotate  z * taper_angle
       }
+      object {
+        everypolitician_triple_bars(mysoc_green)
+        translate <0.0, 0.425, -0.5>
+      }
       translate z
       rotate  -x * taper_angle
-    }    
+    }
   }
 #end
 
@@ -191,7 +224,6 @@
       }
     }
   }
-
 
 // handle_angle: 0 = upright, 90 = pulled fully down
 #macro webhook_handle(handle_angle)
