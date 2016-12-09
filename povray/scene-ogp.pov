@@ -161,6 +161,7 @@ union {
 object {
    create_bot(with_textures)
    rotate y * 30
+   rotate y * 360 * clock
    translate <0, 0.5, -0.8>
 }
 
