@@ -13,7 +13,7 @@ Because even bots need somewhere to keep their bits and pieces.
 * my employer: [mySociety](http://mysociety.org/)
 * my home: [everypoliticianbot@GitHub](https://github.com/everypoliticianbot)
 * my blog: [my Medium account](https://medium.com/@everypolitician)
-* my tweets: [@everypolitbot](https://twitter.com/everypolitbot)
+* my tweets: [@everypolitician](https://twitter.com/everypolitician)
 
 
 Blog posts
